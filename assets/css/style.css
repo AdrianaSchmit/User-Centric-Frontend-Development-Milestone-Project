@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Playfair+Display&family=Satisfy&family=Vidaloka&family=Xanh+Mono&display=swap');
 
-nav{
+/*_____________________________________________________General, colors, font*/
+
+.generalfont{
     font-family: "Vidaloka", sans-serif;
 }
+
+
+
+
+/*______________________________________________________Nav*/
+
 
   #heroimage{
       height:600px;
@@ -56,4 +64,28 @@ footer{
     background-color:#343a40;
     color: #fafafa;
     min-height: 120px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.connect{
+    padding-top: 25px;
+}
+
+.connect li a i{
+    width: 40px;
+    height: 40px;
+    color: #fafafa;
+     padding: 12px 0;
+    font-size: 20px;
+    line-height: 7px;
+    text-align: center;
+    
+}
+
+hr {
+  width: 80%;
+  color:#fafafa;
+  border-width: 1px;
+  border-color: #fafafa;
 }
