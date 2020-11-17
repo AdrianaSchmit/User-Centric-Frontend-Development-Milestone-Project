@@ -34,3 +34,22 @@ color:;
 
   }
 
+  .secondimage{
+      background: url(images/Salon3.jpg);
+      height:300px;
+      width: 32%;
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+  }
+
+.about-us{
+    font-family: "Vidaloka", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* -----------------------------------------------------------------------footer*/
+
+
