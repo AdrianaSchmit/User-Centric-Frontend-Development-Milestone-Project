@@ -37,7 +37,7 @@ color:;
   .secondimage{
       background: url(images/Salon3.jpg);
       height:300px;
-      width: 32%;
+      width: 40%;
        background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,4 +52,8 @@ color:;
 
 /* -----------------------------------------------------------------------footer*/
 
-
+footer{
+    background-color:#343a40;
+    color: #fafafa;
+    min-height: 120px;
+}
