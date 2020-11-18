@@ -1,73 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Playfair+Display&family=Satisfy&family=Vidaloka&family=Xanh+Mono&display=swap');
 
-/*_____________________________________________________General, colors, font*/
+/*_____________________________________________________General, colors, fonts*/
 
 .generalfont{
-    font-family: "Vidaloka", sans-serif;
-    
+    font-family: "Vidaloka", sans-serif;  
 }
 
-
-
-
 /*______________________________________________________Nav*/
+
+nav{
+     font-size: 15px;
+     letter-spacing: 1px; 
+  }
+
+  #navlist a:hover{
+     border-bottom:1px solid #fafafa;
+  }
+
+  
+/*______________________________________________________Section1*/
 
 
   #heroimage{
       height:600px;
       width: 100%;
       background: url(images/Salon5.jpg) center center; 
-
       background-repeat: no-repeat;
       background-size: cover;
-
-    
   }
 
-
   #messagetext{
-color:;
     font-size: 130%;
     font-family: "Vidaloka", sans-serif;
     width: 300px;
     height: 300px;
     padding-top: 40px;
     padding-left: 10px;
-    
-
     text-align: center;
     bottom: 70px;
     right: 70px;
     position: absolute;
-
-
+    color:#301919;
+    font-weight: 200;
   }
 
-  .secondimage{
-      background: url(images/Salon3.jpg);
-      height:300px;
-      width: 40%;
-       background-position: center;
+  /*__________________________________________________________________Section2*/
+
+  #secondimage{
+    background: url(images/Salon3.jpg);
+    height:350px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 30px;
+    margin-bottom: 30px; 
   }
 
 .about-us{
     font-family: "Vidaloka", sans-serif;
     text-align: center;
     margin-top: 30px;
+    padding-top: 40px; 
 }
 
-.thirdimage{
-      background: url(images/Salon4.jpg);
-      height:300px;
-      width: 40%;
-       background-position: center;
+/*____________________________________________________Section3*/
+
+#thirdimage{
+    background: url(images/Salon4.jpg);
+    height:350px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 30px;
+    margin-bottom: 30px; 
   }
+
+  #reviews {
+    font-family: "Vidaloka", sans-serif;
+    text-align: center;
+    padding-top: 40px; 
+}
+
+ #reviews i{
+    color: yellow; 
+}
+
 
 /* -----------------------------------------------------------------------footer*/
 
