@@ -85,7 +85,6 @@ nav{
     color: yellow; 
 }
 
-
 /* -----------------------------------------------------------------------footer*/
 
 footer{
@@ -104,11 +103,10 @@ footer{
     width: 40px;
     height: 40px;
     color: #fafafa;
-     padding: 12px 0;
+    padding: 12px 0;
     font-size: 20px;
     line-height: 7px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 hr {
@@ -116,4 +114,114 @@ hr {
   color:#fafafa;
   border-width: 1px;
   border-color: #fafafa;
+}
+
+/*_____________________________________________________Gallery.html*/
+.imagegallery{
+ margin-top: 30px; 
+ margin-bottom: 30px;
+}
+
+#gallery1{
+ background: url(images/Salon11.jpg);
+  height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+}
+
+#gallery2{
+ background: url(images/Salon6.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#gallery3{
+ background: url(images/Salon17.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#gallery4{
+ background: url(images/Salon7.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#gallery5{
+ background: url(images/Salon8.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#gallery6{
+ background: url(images/Salon9.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#gallery7{
+ background: url(images/Salon10.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+#gallery8{
+ background: url(images/Salon13.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#gallery9{
+ background: url(images/Salon12.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#gallery10{
+ background: url(images/Salon14.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#gallery11{
+ background: url(images/Salon15.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+
+#gallery12{
+ background: url(images/Salon18.jpg);
+ height: 350px;
+ background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
 }
