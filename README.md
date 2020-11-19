@@ -1,45 +1,117 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# User Centric Frontend Development Milestone Project
 
-Welcome USER_NAME,
+## TABLE OF CONTENTS HERE?
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+---
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Curly Queen Hair Salon
 
-A blue button should appear to click: *Make Public*,
+Here = link to the live project 
 
-Another blue button should appear to click: *Open Browser*.
+Curly Queen Hair Salon is a website which main goal is provide a clear overview of the business making it easy to potential and recurrent clients to find all information desired and book a time with us. 
+___
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Experience (UX)
 
-A blue button should appear to click: *Make Public*,
+Mock-up here???
 
-Another blue button should appear to click: *Open Browser*.
+#### As a user I would like to:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- I want to easily navigate throughout the site to find the information I am looking for.
+- I want to see a beautiful website.
+- I want to be able to access the site from any kind of device.
+- I want to see many pictures of client’s hair.
+- I want to be able to see the price list and book it online.
+- I want to read only relevant content and only for curly hair type.
+- I want to be able complete my desired actions without too much thinking.
 
-## Updates Since The Instructional Video
+#### Website goals:
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- Provide clarity with a layout that satisfy the user needs.
+- Build trust in the brand through good design.
+- Provide a predictable and comfortable website with buttons and boxes in expected places.
+- Provide simplicity avoiding overload information  and excess of content links.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Design
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- 	Colour Scheme
+       - The colour chosed for this project are black, white and ?.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- Typography
+    - ADD TEXT Here
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Imagery
+     - ADD TEXT HERE... A beautiful background hero image used to catch the client’s eyes and many gallery pictures from clients with the hair done to allow the clients the business work.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- LINK WIREFRAME HERE
+- LINK MOBILE WIREFRAME
+- OTHER PAGES?
 
---------
+## Features
 
-Happy coding!
+#### Existing Features
+?????
+
+#### Features Left to Implement
+????
+
+## Technologies Used
+In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+
+## Testing
+
+## Deployment
+
+???
+
+## Credits
+
+#### Content
+- ex,.The text for section Y was copied from the Wikipedia article Z
+
+#### Media
+
+- The photos used in this site were obtained from ...
+
+#### Acknowledgements
+
+- I received inspiration for this project from X
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
