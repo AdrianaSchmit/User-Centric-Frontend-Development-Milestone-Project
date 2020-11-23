@@ -343,17 +343,94 @@ hr {
 }
 
 
-#service1 { 
+
+
+
+/*________________________________________________________Contact*/
+#contacttext{ 
+    font-family: "Xanh+Mono";
+    text-align: center;
+    padding-top: 5px; 
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 1px;
 
    
 }
 
-#service2 { 
+#callus{ 
+    font-family: "Xanh+Mono";
+    text-align: center;
+    padding-top: 5px; 
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 1px;
 
    
 }
 
-#service3 { 
 
+
+#contactform{
+    margin-left: 300px;
+
+   vertical-align: middle;
+   margin-top: 30px;
+ 
+ margin-bottom: 30px;
+ 
+ 
+   
+}
+ #name {
+   width: 70%;
+  padding: 10px ;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: black;
+  box-sizing: border-box;
+  padding-left: 50px;
+
+ }
+
+#email{
+   width: 70%;
+   padding: 10px ;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+ 
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+#message{
+    width: 70%;
+    height: 100px;
+margin-bottom: 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  
+  box-sizing: border-box;
+
+}
+
+
+
+.contactformbootstrap{
+   
+   vertical-align: middle;
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 30px;
+margin-top: 30px;
+   
+}
+
+.bgcolor{
+   
+background-color: black;
    
 }
