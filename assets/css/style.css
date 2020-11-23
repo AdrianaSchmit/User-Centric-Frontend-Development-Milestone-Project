@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&family=Satisfy&family=Vidaloka&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Satisfy&family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
 
 /*_____________________________________________________General, colors, fonts*/
 
@@ -49,35 +51,40 @@ nav{
   /*__________________________________________________________________Section2*/
 
 .about-us{
-    font-family: "Vidaloka", sans-serif;
+    font-family: "Xanh+Mono";
     text-align: center;
     width: 80%;
     padding-top: 60px;
     margin: auto;
-    font-weight: 100;    
+   font-size: 30px;   
+   font-weight: 100;
+    letter-spacing: 1px; 
+   
 }
 
-#textabout{
+.about-us h3{
  
-    font-weight: 50;    
+ letter-spacing: 2px; 
+   
 }
 
 
-.about-us h5{
- 
-    font-weight: 50;    
-}
+
 
 
 /*______________________________________________________Section3*/
 
 .action{
-    font-family: "Vidaloka", sans-serif;
+    font-family: "Xanh+Mono";
     text-align: center;
     
-    padding-top: 60px;
+    padding-top: 30px;
      margin: auto;
+     
+ letter-spacing: 2px; 
 }
+
+
 
   #secondimage{
     background: url(images/Salon3.jpg);
@@ -85,9 +92,8 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px; 
-    
   }
 
  
@@ -98,7 +104,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px; 
   }
 
@@ -109,7 +115,7 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px; 
   }
 
@@ -118,11 +124,20 @@ nav{
 
 
   #reviews {
-    font-family: "Vidaloka", sans-serif;
+    font-family:  "Xanh+Mono";
     text-align: center;
     margin: auto;
-    width: 70%
+    width: 70%;
+    padding-top: 40px;
+    font-size: 20px;
+    
 }
+
+#reviews h3{
+  
+ letter-spacing: 2px; 
+}
+
 
  #reviews i{
     color: yellow; 
@@ -159,10 +174,24 @@ hr {
   border-color: #fafafa;
 }
 
+
 /*_____________________________________________________Gallery.html*/
+#gallerytext{ 
+    font-family: "Xanh+Mono";
+    text-align: center;
+    padding-top: 5px; 
+    color: #000000;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+   
+}
+
+
+
 .imagegallery{
- margin-top: 30px; 
- margin-bottom: 30px;
+ margin-top: 20px; 
+ 
 }
 
 #gallery1{
@@ -269,6 +298,9 @@ hr {
  
 }
 
+
+
+
 /*___________________________________________________________Pricing*/
 
 #pricingbackground{
@@ -278,32 +310,35 @@ hr {
  background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
    
  
 }
 
 
 #pricingtext{ 
-    font-family: "Vidaloka", sans-serif;
+    font-family: "Xanh+Mono";
     text-align: center;
-    margin-top: 10px;
-    padding-top: 10px; 
-    color: black;
+    padding-top: 5px; 
+    color: #000000;
     font-size: 20px;
+    letter-spacing: 1px;
 
    
 }
 
 .pricelist{
-  background-color:#343a40;
+  background-color:#b35757;
  text-align: center;
  margin: 30px auto;
- color: #fafafa;
+ color: #000000;
  padding: 20px;
  margin-left: 30px;
  margin-right: 30px;
  text-transform: uppercase;
- font-family: "Vidaloka", sans-serif;
+ font-family: "Xanh+Mono";
+ margin-top: 10px;
+
  
 }
 

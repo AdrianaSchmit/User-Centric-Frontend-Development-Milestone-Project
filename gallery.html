@@ -7,22 +7,38 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/6309ff8382.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
+     
+     <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/6309ff8382.js" crossorigin="anonymous"></script>
+     
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <title>Curly Queen</title>
 </head>
 
 <body>
 
-<nav class="navbar navbar-dark bg-dark navbar navbar-expand-lg generalfont">
+<nav class="navbar navbar-dark navbar navbar-expand-lg  generalfont">
   <a class="navbar-brand" href="index.html">CURLY QUEEN</a>
     <ul class="navbar-nav ml-auto" id="navlist">
       <li class="nav-item">
         <a class="nav-link p-2" href="index.html">HOME </a>
       </li>
-       <li class="nav-item active">
+      <li class="nav-item active">
         <a class="nav-link" href="gallery.html">GALLERY </a>
       </li>
        <li class="nav-item ">
-        <a class="nav-link" href="#">PRICING </a>
+        <a class="nav-link" href="pricing.html">PRICING </a>
       </li>
        <li class="nav-item ">
         <a class="nav-link" href="#">BOOK </a>
@@ -30,9 +46,12 @@
       <li class="nav-item ">
         <a class="nav-link" href="#">CONTACT </a>
       </li>
-      </ul>
+    </ul>
 </nav>
 
+<div id="gallerytext">
+<p>Our Gallery</p>
+</div>
 
 <div class="row imagegallery">
   <div class="col-sm-3" id="gallery1"></div>
@@ -50,7 +69,10 @@
 </div>
 
 
-<footer class="container-fluid generalfont">
+
+
+
+ <footer class="container-fluid generalfont">
         <div class="row">
             <div class="col-sm-4">
                 <div>
@@ -68,35 +90,35 @@
                 <h4>NEWSLETTER</h4>
                 <hr>
                 <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
-                <form action=" https://formdump.codeinstitute.net/" method="post">
+                <form action="/action_page.php" method="post">
                 
                 <input type="email" id="email" name="email_address" placeholder="Enter your email address">
-                <input type="submit" value="Subscribe">
+                <input type="submit" value="Subscribe" id="Subscribe">
                 </form>
                 
             </div>
             <div class="col-sm-4">
-                <h5> CONNECT WITH US</h5>
+                <h4> CONNECT WITH US</h4>
                 <hr>
 
                  <ul class="list-inline connect">
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://facebook.com">
                             <i class="fa fa-facebook"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://twitter.com">
                             <i class="fa fa-twitter"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://pinterest.com">
                             <i class="fa fa-pinterest"></i>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a target="_blank" href="#">
+                        <a target="_blank" href="https://intragam.com">
                             <i class="fa fa-instagram"></i>
                             
                         </a>
@@ -106,3 +128,7 @@
             </div>
         </div>
 </footer>
+
+
+    
+</body>
