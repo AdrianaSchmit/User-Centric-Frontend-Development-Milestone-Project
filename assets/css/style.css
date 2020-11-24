@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 
 /*_____________________________________________________General, colors, fonts*/
@@ -362,3 +363,66 @@ background-color: #b35757;
 }
 
 
+/*_______________________________________________________media screem*/
+
+@media only screen and (max-width: 600px) {
+  #heroimage{
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 0;
+  }
+
+  #messagetext{
+   display: none;     
+}
+
+  footer hr {
+   display: none;     
+}
+ 
+  #abouttext{
+   font-size: 80%;     
+}
+
+.about-us{
+   margin-top: 0;     
+}
+
+footer{
+
+  padding: 0;
+}
+
+#footer1{
+
+  border-style: solid;
+  clear:both;  
+  border-bottom-width:1px;
+  border-bottom-color: #fafafa;
+  padding: 0;
+  height: 150px;
+}
+
+#footer2{
+  border-style: solid;
+  clear:both;  
+  border-bottom-width:1px;
+  border-bottom-color: #fafafa;
+  height: 150px;
+}
+
+#footer3{
+  border-style: solid;
+  clear:both;  
+  border-bottom-width:1px;
+  border-bottom-color: #fafafa;
+  padding-top: 10px;
+  height: 150px;
+}
+
+.connect{
+  padding-top: 10px;
+}
+
+}

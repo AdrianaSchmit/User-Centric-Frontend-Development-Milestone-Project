@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/6309ff8382.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
      
+
      <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,8 +33,14 @@
 
 <nav class="navbar navbar-dark navbar navbar-expand-lg  generalfont">
   <a class="navbar-brand" href="index.html">CURLY QUEEN</a>
-    <ul class="navbar-nav ml-auto" id="navlist">
-      <li class="nav-item">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="navlist">
+      <li class="nav-item ">
         <a class="nav-link p-2" href="index.html">HOME </a>
       </li>
       <li class="nav-item active">
@@ -39,18 +48,15 @@
       </li>
        <li class="nav-item ">
         <a class="nav-link" href="pricing.html">PRICING </a>
-      </li>
-       <li class="nav-item ">
-        <a class="nav-link" href="#">BOOK </a>
-      </li>
+        </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">CONTACT </a>
+        <a class="nav-link" href="contact.html">CONTACT </a>
       </li>
     </ul>
+ </div>
 </nav>
-
 <div id="gallerytext">
-<p>Our Gallery</p>
+    <p>Our Gallery</p>
 </div>
 
 <div class="row imagegallery">
@@ -68,25 +74,22 @@
   <div class="col-sm-3" id="gallery12"></div>
 </div>
 
-
-
-
-
- <footer class="container-fluid generalfont">
+ <footer class=" generalfont">
         <div class="row">
             <div class="col-sm-4">
-                <div>
+                <div id="footer1">
                     <h5>CURLY QUEEN</h5> 
                     <hr>
                     <p> <i class="fas fa-map-marker-alt"></i>
                     Jungfrudansen 90, Stockolm</p>
-                    <p> <i class="fas fa-phone-alt"></i>
-                    079-3342711</p>
+                   <p> <i class="fas fa-phone-alt"></i>
+                    087-652345</p>
                     <p> <i class="fas fa-at"></i>
                     info@curlyqueen.se</p>
                 </div>
             </div>
             <div class="col-sm-4">
+            <div id="footer2">
                 <h4>NEWSLETTER</h4>
                 <hr>
                 <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
@@ -95,9 +98,11 @@
                 <input type="email" id="email" name="email_address" placeholder="Enter your email address">
                 <input type="submit" value="Subscribe" id="Subscribe">
                 </form>
-                
+               </div> 
             </div>
+
             <div class="col-sm-4">
+            <div id="footer3">
                 <h4> CONNECT WITH US</h4>
                 <hr>
 
@@ -124,11 +129,9 @@
                         </a>
                     </li>
                 </ul>
-                
+               </div> 
             </div>
         </div>
 </footer>
-
-
-    
+  
 </body>
