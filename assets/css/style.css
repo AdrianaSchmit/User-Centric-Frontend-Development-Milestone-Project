@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Satisfy&family=Vidaloka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
 
@@ -56,35 +56,24 @@ nav{
     width: 80%;
     padding-top: 60px;
     margin: auto;
-   font-size: 30px;   
-   font-weight: 100;
+    font-size: 30px;   
+    font-weight: 100;
     letter-spacing: 1px; 
-   
 }
 
 .about-us h3{
- 
- letter-spacing: 2px; 
-   
+     letter-spacing: 2px; 
 }
-
-
-
-
 
 /*______________________________________________________Section3*/
 
 .action{
     font-family: "Xanh+Mono";
     text-align: center;
-    
     padding-top: 30px;
-     margin: auto;
-     
- letter-spacing: 2px; 
+    margin: auto;
+    letter-spacing: 2px; 
 }
-
-
 
   #secondimage{
     background: url(images/Salon3.jpg);
@@ -96,8 +85,6 @@ nav{
     margin-bottom: 30px; 
   }
 
- 
-
   #thirdimage{
     background: url(images/Salon21.jpg);
     height:350px;
@@ -107,7 +94,6 @@ nav{
     margin-top: 20px;
     margin-bottom: 30px; 
   }
-
 
 #fourthimage{
     background: url(images/Salon23.jpg);
@@ -121,23 +107,18 @@ nav{
 
 /*____________________________________________________Section4*/
 
-
-
   #reviews {
     font-family:  "Xanh+Mono";
     text-align: center;
     margin: auto;
     width: 70%;
     padding-top: 40px;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 #reviews h3{
-  
- letter-spacing: 2px; 
+   letter-spacing: 2px; 
 }
-
 
  #reviews i{
     color: yellow; 
@@ -174,6 +155,15 @@ hr {
   border-color: #fafafa;
 }
 
+#email{
+   margin-top: 0;
+   margin-bottom: 0;
+   height: 40px;
+}
+
+#Subscribe:hover{
+    background-color:red;
+}
 
 /*_____________________________________________________Gallery.html*/
 #gallerytext{ 
@@ -182,124 +172,107 @@ hr {
     padding-top: 5px; 
     color: #000000;
     font-size: 30px;
-    letter-spacing: 1px;
-
-   
+    letter-spacing: 1px; 
 }
 
-
-
 .imagegallery{
- margin-top: 20px; 
- 
+     margin-top: 20px; 
 }
 
 #gallery1{
- background: url(images/Salon18.jpg);
-  height: 350px;
- background-position: center;
+    background: url(images/Salon18.jpg);
+    height: 350px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
- 
 }
 
 #gallery2{
- background: url(images/Salon6.jpg);
- height: 350px;
- background-position: center;
+    background: url(images/Salon6.jpg);
+   height: 350px;
+   background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
 }
 #gallery3{
- background: url(images/Salon17.jpg);
- height: 350px;
- background-position: center;
+   background: url(images/Salon17.jpg);
+   height: 350px;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
- 
 }
+
 #gallery4{
  background: url(images/Salon7.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
+
 #gallery5{
  background: url(images/Salon8.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
+
 #gallery6{
  background: url(images/Salon9.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 #gallery7{
  background: url(images/Salon10.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
+
 #gallery8{
  background: url(images/Salon13.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 #gallery9{
  background: url(images/Salon12.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 #gallery10{
  background: url(images/Salon14.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 #gallery11{
  background: url(images/Salon15.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
 #gallery12{
  background: url(images/Salon11.jpg);
  height: 350px;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
+ background-repeat: no-repeat;
+ background-size: cover;
 }
-
-
-
 
 /*___________________________________________________________Pricing*/
 
@@ -308,13 +281,10 @@ hr {
  height: 100%;
  width: 100%;
  background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-   
- 
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin: 0; 
 }
-
 
 #pricingtext{ 
     font-family: "Xanh+Mono";
@@ -323,8 +293,6 @@ hr {
     color: #000000;
     font-size: 20px;
     letter-spacing: 1px;
-
-   
 }
 
 .pricelist{
@@ -338,15 +306,10 @@ hr {
  text-transform: uppercase;
  font-family: "Xanh+Mono";
  margin-top: 10px;
-
- 
 }
 
-
-
-
-
 /*________________________________________________________Contact*/
+
 #contacttext{ 
     font-family: "Xanh+Mono";
     text-align: center;
@@ -354,8 +317,6 @@ hr {
     color: #000000;
     font-size: 20px;
     letter-spacing: 1px;
-
-   
 }
 
 #callus{ 
@@ -363,74 +324,41 @@ hr {
     text-align: center;
     padding-top: 5px; 
     color: #000000;
-    font-size: 40px;
-    letter-spacing: 1px;
-
-   
+    font-size: 35px;
+    letter-spacing: 1px; 
 }
-
-
 
 #contactform{
     margin-left: 300px;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.contactformbootstrap{ 
    vertical-align: middle;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-bottom: 30px;
    margin-top: 30px;
- 
- margin-bottom: 30px;
- 
- 
-   
-}
- #name {
-   width: 70%;
-  padding: 10px ;
-  margin-bottom: 30px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  background-color: black;
-  box-sizing: border-box;
-  padding-left: 50px;
-
- }
-
-#email{
-   width: 70%;
-   padding: 10px ;
-  margin-bottom: 30px;
-  display: inline-block;
-  border: 1px solid #ccc;
- 
-  box-sizing: border-box;
-  text-align: center;
-
 }
 
-#message{
-    width: 70%;
-    height: 100px;
-margin-bottom: 30px;
-  display: inline-block;
-  border: 1px solid #ccc;
-  
-  box-sizing: border-box;
-
+#exampleInputMessage{
+   height: 90px;
 }
 
+.bgcolor{ 
+    background-color: black;
+}
 
-
-.contactformbootstrap{
-   
-   vertical-align: middle;
-margin-left: 20%;
-margin-right: 20%;
-margin-bottom: 30px;
-margin-top: 30px;
+#contactsubmit{
+   background-color:#db3636;
    
 }
 
-.bgcolor{
+#contactsubmit:hover{
    
-background-color: black;
-   
+background-color: #b35757;  
 }
+
+
