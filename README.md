@@ -37,28 +37,42 @@ Mock-up here???
 #### Design
 
 - 	Colour Scheme
-       - The colour chosed for this project are black, white and ?.
+       - The colour chosed for this project are #000000, #fafafa, #b35757 and #4d4d4d. 
 
-- Typography?????
-    - ADD TEXT Here
+- Typography
+    - The main colours chosed for this project were "Lato"and "Xanh+Mono"
 
-- Imagery ??????
-     - ADD TEXT HERE... A beautiful background hero image used to catch the client’s eyes and many gallery pictures from clients with the hair done to allow the clients the business work.
+- Imagery 
+     -  A beautiful background hero image used to catch the client’s eyes and many  pictures in the gallery page from clients with focus on the hair.
 
 
-#### Wireframes
+#### Wireframes ?????
 
 - LINK WIREFRAME HERE
 - LINK MOBILE WIREFRAME
 - OTHER PAGES?
 
 ## Features
+---
+
 
 #### Existing Features
-?????
+
+- Home index page with a big hero image , pictures of the professionals at work, a section for a brief about us and a section for reviews.
+- Galley page with different pics of the clients.
+- Pricing page displaying clearly the treatments offered and prices.
+- Contact page with phone number, address, working hours, an contact online form and google maps.
+- Easy to navigate navbar.
+- Footer with adress and phone number, an email subscribe form and links to social media.
+- Responsive on all device sizes.
+
+
 
 #### Features Left to Implement
-????
+
+- Create another index page called "our products"
+- Create some fancy box style for the gallery pictures.
+
 
 ## Technologies Used
 
@@ -90,6 +104,7 @@ Mock-up here???
 ## Testing
 ---
 
+The website was tested on a variety of actual devices.
 
 All the pages were validated by W3C Markup Validator and W3C CSS Validator Services.
 
@@ -141,26 +156,38 @@ All the pages were validated by W3C Markup Validator and W3C CSS Validator Servi
 ## Deployment
 ---
 
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/AdrianaSchmit/curly-queen)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll 
 
 
-???
+
 
 ## Credits
+---
+
 
 #### Content
 
-- The images in this website were copied from google images??
+-  The content was written by the developer.
 
+- [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) were used throughout the project for responsiveness.
 
-- ex,.The text for section Y was copied from the Wikipedia article Z
+- The colours were choosed with help of [Adobe Color](https://color.adobe.com/create/color-wheel).
+
+- The text for the Deployment section was copied from the [CodeInstituteSampleRead.me](https://github.com/Code-Institute-Solutions/SampleREADME). 
 
 #### Media
 
-- The photos used in this site were obtained from ...
+- The images in this website were copied from google images.
 
 #### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from  [UrbanHair](https://urbanhair.se/#hem).
+- Great thanks to my Mentor for all the kind feedback, the tutors for all the help, and to the Student Care. 
 
 
 
