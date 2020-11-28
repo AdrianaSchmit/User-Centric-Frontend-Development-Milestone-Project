@@ -1,140 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://kit.fontawesome.com/6309ff8382.js" crossorigin="anonymous"></script>
-     
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/6309ff8382.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
     <title>Curly Queen</title>
-</head>
+  </head>
 
+  <body>
+    <nav class="navbar navbar-dark navbar navbar-expand-lg generalfont">
+      <a class="navbar-brand" href="index.html">CURLY QUEEN</a>
 
-<body>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<nav class="navbar navbar-dark navbar navbar-expand-lg  generalfont">
-  <a class="navbar-brand" href="index.html">CURLY QUEEN</a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="navlist">
+          <li class="nav-item">
+            <a class="nav-link p-2" href="index.html">HOME </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">GALLERY </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pricing.html">PRICING </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">CONTACT </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-  </button>
+    <div id="contacttext">
+      <h3>Contact</h3>
+    </div>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav ml-auto mt-2 mt-lg-0" id="navlist">
-      <li class="nav-item ">
-        <a class="nav-link p-2" href="index.html">HOME </a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="gallery.html">GALLERY </a>
-      </li>
-       <li class="nav-item ">
-        <a class="nav-link" href="pricing.html">PRICING </a>
-        </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="contact.html">CONTACT </a>
-      </li>
-    </ul>
- </div>
-</nav>
+    <div id="callus">Call us: 087-652345</div>
 
-<div id="contacttext">
-    <h3>Contact</h3>
-</div>
-
-<div id="callus">
-    Call us: 087-652345
-</div>
-
-
-<form class="contactformbootstrap">
-   <div class="form-group">
+    <form class="contactformbootstrap">
+      <div class="form-group">
         <label for="exampleInputName">Your Name</label>
-        <input type="text" class="form-control bgcolor" id="exampleInputName" >
-  </div>
+        <input type="text" class="form-control bgcolor" id="exampleInputName" />
+      </div>
 
-  <div class="form-group">
+      <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control bgcolor" id="exampleInputEmail1">
-  </div>
+        <input
+          type="email"
+          class="form-control bgcolor"
+          id="exampleInputEmail1"
+        />
+      </div>
 
-  <div class="form-group">
+      <div class="form-group">
         <label for="exampleInputMessage">Your message</label>
-        <input type="text" class="form-control bgcolor" id="exampleInputMessage" >
-  </div>
-    
-  <button type="submit" id="contactsubmit" class="btn btn-primary">Send it!</button>
+        <input
+          type="text"
+          class="form-control bgcolor"
+          id="exampleInputMessage"
+        />
+      </div>
 
-</form>
+      <button type="submit" id="contactsubmit" class="btn btn-primary">
+        Send it!
+      </button>
+    </form>
 
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-817b9963-819d-4bfc-9e50-d9a367dfed96"></div>
 
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-817b9963-819d-4bfc-9e50-d9a367dfed96"></div>
-
- <footer class=" generalfont">
-        <div class="row">
-            <div class="col-sm-4">
-                <div id="footer1">
-                    <h5>CURLY QUEEN</h5> 
-                    <hr>
-                    <p> <i class="fas fa-map-marker-alt"></i>
-                    Jungfrudansen 90, Stockolm</p>
-                   <p> <i class="fas fa-phone-alt"></i>
-                    087-652345</p>
-                    <p> <i class="fas fa-at"></i>
-                    info@curlyqueen.se</p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-            <div id="footer2">
-                <h4>NEWSLETTER</h4>
-                <hr>
-                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
-                <form action="/action_page.php" method="post">
-                
-                <input type="email" id="email" name="email_address" placeholder="Enter your email address">
-                <input type="submit" value="Subscribe" id="Subscribe">
-                </form>
-               </div> 
-            </div>
-
-            <div class="col-sm-4">
-            <div id="footer3">
-                <h4> CONNECT WITH US</h4>
-                <hr>
-
-                 <ul class="list-inline connect">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://facebook.com">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://pinterest.com">
-                            <i class="fa fa-pinterest"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="https://intragam.com">
-                            <i class="fa fa-instagram"></i>
-                            
-                        </a>
-                    </li>
-                </ul>
-               </div> 
-            </div>
+    <footer class="generalfont">
+      <div class="row">
+        <div class="col-sm-4">
+          <div id="footer1">
+            <h5>CURLY QUEEN</h5>
+            <hr />
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Jungfrudansen 90, Stockolm
+            </p>
+            <p><i class="fas fa-phone-alt"></i> 087-652345</p>
+            <p><i class="fas fa-at"></i> info@curlyqueen.se</p>
+          </div>
         </div>
-</footer>
-  
-    
-</body>
+        <div class="col-sm-4">
+          <div id="footer2">
+            <h4>NEWSLETTER</h4>
+            <hr />
+            <p>
+              Subscribe to receive updates, access to exclusive deals, and more.
+            </p>
+            <form action="/action_page.php" method="post">
+              <input
+                type="email"
+                id="email"
+                name="email_address"
+                placeholder="Enter your email address"
+              />
+              <input type="submit" value="Subscribe" id="Subscribe" />
+            </form>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div id="footer3">
+            <h4>CONNECT WITH US</h4>
+            <hr />
+
+            <ul class="list-inline connect">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://facebook.com">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://twitter.com">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://pinterest.com">
+                  <i class="fa fa-pinterest"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://intragam.com">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
