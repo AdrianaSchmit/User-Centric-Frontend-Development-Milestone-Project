@@ -111,7 +111,7 @@ All the pages were validated by W3C Markup Validator and W3C CSS Validator Servi
 - [W3C Markup Validator](https://validator.w3.org/nu/) 
 - [W3C CSS Validator  ](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
-###Testing User Stories from User Experience (UX) Section
+### Testing User Stories from User Experience (UX) Section
 
 - As a user I would like to:
     - I want to easily navigate throughout the site to find the information I am looking for.
