@@ -1,12 +1,10 @@
 # User Centric Frontend Development Milestone Project
 
-## TABLE OF CONTENTS HERE?
-
----
-
-
 
 ## Curly Queen Hair Salon
+---
+![MockUp](assets/images/smartmockups_ki1bjpyr.png)
+
 
 Here = link to the live project 
 
