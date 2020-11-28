@@ -3,17 +3,19 @@
 
 ## Curly Queen Hair Salon
 ---
+
+
+[View the live project here.]( https://adrianaschmit.github.io/curly-queen/) 
+
+Curly Queen Hair Salon is a website which main goal is provide a clear 
+overview of the business making it easy to potential and recurrent clients 
+to find all information desired and book a time with us. 
 ![MockUp](assets/images/smartmockups_ki1bjpyr.png)
 
 
-Here = link to the live project 
-
-Curly Queen Hair Salon is a website which main goal is provide a clear overview of the business making it easy to potential and recurrent clients to find all information desired and book a time with us. 
-___
-
 ## User Experience (UX)
+---
 
-Mock-up here???
 
 #### As a user I would like to:
 
@@ -44,11 +46,11 @@ Mock-up here???
      -  A beautiful background hero image used to catch the client’s eyes and many  pictures in the gallery page from clients with focus on the hair.
 
 
-#### Wireframes ?????
+#### Wireframes 
 
-- LINK WIREFRAME HERE
-- LINK MOBILE WIREFRAME
-- OTHER PAGES?
+- [Wireframes ](https://balsamiq.cloud/s4a8u2r/pn1glqp)
+
+
 
 ## Features
 ---
@@ -159,7 +161,17 @@ All the pages were validated by W3C Markup Validator and W3C CSS Validator Servi
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll 
+6. Scroll back down through the page to locate the now published site [link]( https://adrianaschmit.github.io/curly-queen/)  in the "GitHub Pages" section.
+
+#### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/AdrianaSchmit/curly-queen).
+2. Under the repository name, by the left side of the green Gitpod button click in Code.
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
 
 
 
